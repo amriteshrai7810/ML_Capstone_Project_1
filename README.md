@@ -16,7 +16,7 @@ The aim of building this project was to empower buyers by providing them with in
 - Applied various techniques, including data cleaning, feature engineering, and model building, using Numpy, Pandas, Dtale, Seaborn, Matplotlib, and Scikit-learn
 
 # Run the Project
-- Step 1: Run the setup file using 'python setup.py install' This command installs the required packages in your Python environment, either globally or locally, based on the context in which the command is executed
+- Step 1: Run "pip install -r requirements.txt" to install all necessary packages. This command installs the required packages in your Python environment, either globally or locally, based on the context in which the command is executed
 - Step 2: Launch the website on your local server by running 'streamlit run Home.py' after navigating to the project directory
 
 
