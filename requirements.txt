@@ -4,7 +4,7 @@ numpy
 seaborn
 matplotlib
 plotly==5.15.0
-pandas-profiling==3.6.6
+pandas-profiling
 dtale==3.9.0
 
 # Web Scraping
@@ -13,10 +13,11 @@ selenium==4.16.0
 requests==2.28.2
 retrying==1.3.4
 
-# ML Models
-scikit-learn==1.3.2
+# ML Model
+scikit-learn==1.3.1
 xgboost==2.0.3
 wordcloud==1.9.2
+category_encoders
 
 
 # Web
