@@ -2,6 +2,9 @@
 This project is built on machine learning algorithms with the aim of assisting individuals looking to purchase properties in Gurgaon. It provides recommendations and predictions for various factors to aid in the decision-making process.
 The aim of building this project was to empower buyers by providing them with insights into property prices and facilities, assisting them in making informed decisions
 
+# Video link on LinkedIn
+https://www.linkedin.com/feed/update/urn:li:activity:7171491581231902721/
+
 # Description
 > Model_Development
 - It offers a Streamlit web dashboard to assist you in the process of buying properties in Gurgaon
