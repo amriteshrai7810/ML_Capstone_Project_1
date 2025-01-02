@@ -3,7 +3,7 @@ This project is built on machine learning algorithms with the aim of assisting i
 The aim of building this project was to empower buyers by providing them with insights into property prices and facilities, assisting them in making informed decisions
 
 # Video Demo on LinkedIn
-https://www.linkedin.com/feed/update/urn:li:activity:7171491581231902721/
+LinkedIn Link: [linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7171491581231902721/)
 
 # Description
 > Model_Development
