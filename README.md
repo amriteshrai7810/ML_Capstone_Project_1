@@ -1,28 +1,22 @@
 # About Gurgaon Real Estate Analysis and Property Price Prediction
-This project is built on machine learning algorithms with the aim of assisting individuals looking to purchase properties in Gurgaon. It provides recommendations and predictions for various factors to aid in the decision-making process.
-The aim of building this project was to empower buyers by providing them with insights into property prices and facilities, assisting them in making informed decisions
+This project leverages data analysis techniques to provide insights for individuals looking to purchase properties in Gurgaon. Through extensive exploration of property data, it offers in-depth analysis of factors such as pricing trends, property distribution, and key amenities. The project aims to help buyers make informed decisions by uncovering patterns and correlations in property features, location, and price, enhancing the property selection process.
 
 # Video Demo on LinkedIn
 LinkedIn Link: [linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7171491581231902721/)
 
 # Description
-> Model_Development
-- It offers a Streamlit web dashboard to assist you in the process of buying properties in Gurgaon
-- Price Predictor: This page utilizes Random Forest Regressor and XGBoost to predict property prices based on selected options. It employs linear regression feature importance to estimate changes in variables for different options
-- Analysis App: Leveraging GeoMap (Plotly), word clouds, and various charts, this page assists users in analyzing properties and their prices
-- Recommend Apartments: This feature suggests similar apartments based on price, facilities, and distance, utilizing a custom function with weighted cosine similarity
-	- Image Loader: Utilizing BeautifulSoup and requests, this feature dynamically scrapes and loads images for the recommended apartments
 
-> MlWebDashboard
-# EDA & Scraping
-- Used Selenium and BeautifulSoup to scrape data from 99acres
-- Applied various techniques, including data cleaning, feature engineering, and model building, using Numpy, Pandas, Dtale, Seaborn, Matplotlib, and Scikit-learn
+## Gurgaon Real Estate Data Analysis and Price Prediction
 
-# Run the Project
-- Step 1: Run "pip install -r requirements.txt" to install all necessary packages. This command installs the required packages in your Python environment, either globally or locally, based on the context in which the command is executed
-- Step 2: Launch the website on your local server by running 'streamlit run Home.py' after navigating to the project directory
+- Data Exploration: Analyzed 3,800+ property data points, including location, price, room types, and amenities. Categorized properties into minimal, semi-luxurious, and luxurious types.
+- Location and Price Insights: Mapped geo data, explored price trends by area, and analyzed flat distribution (2BHK, 3BHK) with corresponding price ranges.
+- Price Prediction: Developed a Random Forest Regressor to predict property prices based on selected features, offering users price expectations.
+- Society Recommendation: Built a recommendation system based on proximity to key locations like hospitals and malls to help users find similar societies.
+- Web Scraping: Used BeautifulSoup and requests to dynamically scrape property data for analysis and recommendations.
 
+## MLWebDashboard - EDA & Scraping
 
-# How to use the project
-- If you are looking to buy properties in Gurgaon and lack information about costs or suitable areas, or if you are contemplating a move to a new society, this website can provide assistance.
-It offers estimates of property costs based on your desired facilities and can recommend similar societies if you are considering relocating to a new location in Gurgaon
+- Data Collection: Scraped real estate data from 99acres using Selenium and BeautifulSoup.
+- Data Analysis: Cleaned and preprocessed data using Numpy, Pandas, and Dtale. Conducted exploratory data analysis (EDA) to uncover insights on property types, pricing trends, and area distribution.
+- Visualization: Utilized Seaborn and Matplotlib for visualizing price distributions, room types, and location-based trends to help understand property market dynamics.
+- Feature Engineering: Analyzed key features like amenities and flat configurations to better categorize and predict property prices.
