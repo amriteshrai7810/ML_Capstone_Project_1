@@ -1,4 +1,4 @@
-# About ML Capstone Project 1
+# About Gurgaon Real Estate Analysis and Property Price Prediction
 This project is built on machine learning algorithms with the aim of assisting individuals looking to purchase properties in Gurgaon. It provides recommendations and predictions for various factors to aid in the decision-making process.
 The aim of building this project was to empower buyers by providing them with insights into property prices and facilities, assisting them in making informed decisions
 
